@@ -1,0 +1,254 @@
+.body1{
+    background-image: url(/Image/Fond.jpg);
+    background-size: cover;
+    font-family: 'Satisfy', cursive;
+    height:200px;
+
+}
+
+body,html,header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.barre{
+    margin-left: 75px;
+    margin-right: 75px;
+    background-image: url(/Image/2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    border-bottom: solid 6px #152924;
+    border-left: solid 6px #152924;
+    border-right:  solid 6px #152924;
+}
+
+.img1{
+    margin-top: 20px;
+}
+
+.p1{
+    margin-top:50px ;
+    color: white;
+    font-size: 3ch;
+    font-family: 'Satisfy', cursive;
+}
+
+.a1{
+    text-decoration: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: center;
+    grid-gap: 60px;
+}
+
+.gride1{
+    grid-row-start: 2;
+    transition: all 1s ease;
+    text-align: center;
+    transition: all 1s ease;
+    font-size: 2.5ch;
+    font-weight: 800;
+}
+
+.gride2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    text-align: center;
+    transition: all 1s ease;
+    font-size: 2.5ch;
+    font-weight: 800;
+}
+
+.gride3{
+    grid-column-start: 1;
+    grid-column-start: 3;
+    text-align: center;
+    transition: all 1s ease;
+    font-size: 2.5ch;
+    font-weight: 800;
+}
+
+.gride1:hover{
+    height: 200px;
+    background-color: transparent;
+    color: white;
+}
+
+.gride2:hover{
+    height: 425px;
+    background-color: transparent;
+    color: white;
+}
+
+.gride3:hover{
+    height: 425px;
+    background-color: transparent;
+    color: white;
+}
+
+footer{
+    border-top: solid 6px #0b1613;
+    margin-top: 228px;
+    background-color: #152924;
+}
+
+.body2{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    margin: 50px;
+    gap: 50px;
+
+
+}
+
+.p2 {
+    width: 800px;
+    margin-left: 345px ;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+
+}
+
+.p3{
+    width: 800px;
+    margin-left: 345px ;
+    font-family: 'Rubik', sans-serif;
+}
+
+.img {
+    margin-left: 600px;
+}
+
+.h{
+margin-left: 350px;
+margin-right: 350px;
+    border-bottom:solid 4px darkred;
+    border-radius:20px;
+    padding: 20px;
+
+}
+
+.h2{
+    margin-left: 350px;
+    margin-right: 350px;
+        border-bottom:solid 4px darkblue;
+        border-radius:20px;
+        padding: 20px;
+    
+    }
+
+.body3{
+    background-image: url(/Image/Fond.jpg);
+    background-size: cover;
+    font-family: 'Satisfy', cursive;
+}
+
+.grid2{ 
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: grid;
+    grid-column: 250px 250px 250px;
+    grid-row: 250px 250px 250px;
+    justify-content: center;
+    padding: 50px   ;
+    transition: all 1s ease;
+    row-gap: 30px;
+    column-gap: 20px;
+    background-color: #0b1613;
+}
+
+
+.style{
+    margin-top: 100px;
+    grid-column-start: 1;
+    grid-row: 1;
+    width: auto;
+    padding: 20px;
+    border: solid 4px  #152924;
+}
+
+.style2{
+    margin-top: 100px;
+    grid-column-start: 2;
+    grid-row: 1;
+    width: auto;
+    padding: 20px;
+    border: solid 4px  #152924;
+}
+.style3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    width: 500px;
+    padding: 20px;
+    border: solid 4px  #152924;
+}
+
+.style4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4;   
+    width: auto;
+    padding: 20px;
+    border: solid 4px  #152924;
+}
+
+.style5{
+    grid-column-start :3 ;
+    grid-row-start: 6 ;
+    background-color: #152924;
+    border: solid 1px #152924;
+    color: white;
+    border-radius: 25px;
+    font-size: 3ch;
+    padding: 10px;
+    transition:all 0.75s ease;
+    width: 150px;
+}
+.style5:hover{
+    background-color: white;
+    color: #152924;
+    cursor: pointer;
+}
+
+.grid3{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: grid;
+    grid-column: 250px 250px 250px;
+    grid-row: 250px 250px 250px;
+    justify-content: center;
+    padding: 50px   ;
+    transition: all 1s ease;
+    row-gap: 20px;
+    background-color: #0b1613;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+    color: #0b1613;
+}
